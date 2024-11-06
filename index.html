@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cofe House</title>
+    <meta name="description" content="Cafe House: Enjoy rich, aromatic coffee and delectable treats in a cozy atmosphere. Experience expertly crafted cappuccinos, mochas and more.">
+        <title>Cofe House</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <!-- Google Fonts link -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/b8d355edd3.js"
       crossorigin="anonymous"
     ></script>
   </head>
+  
 
   <body>
     <!-- Navbar Section -->
@@ -32,15 +33,19 @@
       </nav>
     </header>
 
-    <!-- Image Section Below Welcome Section -->
-    <section class="img-section">
-      <img src="images/logo-lamp.jpg" alt="logo" class="header-image" />
-      <div class="welcome-content">
-        <h1>Welcome To-Cafe House</h1>
-      </div>
-    </section>
+    <!-- Welcome Section -->
+   <section class="featured-section" >
+    <div class="content" >
+      <h1>Discover your Favorite Coffee</h1>
+      <p>Indulge in a world of rich flavors and aromas</p>
+      <button>Esplore Now</button>
+    </div>
+   </section>
+    
+    
+  
 
-    <!-- Main Content -->
+
     <main class="popular-items">
       <h2>
         <span class="icon">
@@ -48,43 +53,47 @@
         ></span>
         Your Favorite cafe, Now Online
       </h2>
+    
+
       <!--  Heding-line -->
-      <hr class="heding-line" />
+      <!-- <hr class="heding-line" /> -->
       <div class="cards-container">
         <div class="card">
+         
           <img src="images/caffe-1.avif" alt="Cappuccino" />
-          <h3>Cappuccino</h3>
+          <h3>ODER NOW</h3>
           <p>
             "Cappuccino is a rich & foamy coffee, perfect for a cozy moment."
           </p>
           <a href="#billCappuccino" class="oder-now-btn" >Oder Now</a>
-          <!-- <button>Order Now</button> -->
+        
         </div>
 
         <div class="card">
+       
           <img src="images/coffee-4.avif" alt="Americano" />
-          <h3>Americano</h3>
+          <h3>ODER NOW</h3>
           <p>
             "Americano is a smooth, espresso-based coffee, perfect for a bold,
             simple taste."
           </p>
           <a href="#billamericano" class="oder-now-btn" >Oder Now</a>
-          <!-- <button>Order Now</button> -->
-        </div>
+</div>
 
         <div class="card">
+        
           <img src="images/coffe-6.jpg" alt="Mocha" />
-          <h3>Mocha</h3>
+          <h3>ODER NOW</h3>
           <p>
             "Mocha is a creamy, smooth coffee, perfect for a gentle, milky
             flavor."
           </p>
           <a href="#billmocha" class="oder-now-btn" >Oder Now</a>
-          <!-- <button>Order Now</button> -->
+        
         </div>
       </div>
     </main>
-
+  </section>
     <!-- Hidden Bill Page -->
 
      <div id="billCappuccino" class="bill-page">
@@ -120,7 +129,7 @@
         <p class="tagline">The Best Coffe for you</p>
         <h3>Cafe House</h3>
         <p class="description">
-        At out cafe house, we believe that the best coffee is more than just a drink; it's an experience. We take pride in serving perfectly roasted beans, sourced from the finest regions, to create a brew that is rich, aromatic and smooth. Our expert baristas craft each cup with care, from the bold Americano to the creamy, indulgent latte. Whether you're looking for a morning pick-me-up or an afternoon escape, our coffee is designed to delight your senses and make every visit memorable. Come and tast the passion we pour into every cup. 
+        At out cafe house, we believe that the best coffee is more than just a drink; it's an experience. We take pride in serving perfectly roasted beans, sourced from the finest regions, to offer a rich, aromatic and smooth. Our expert baristas craft each cup with care, from the bold Americano to the creamy, indulgent latte. Whether you're looking for a morning pick-me-up or an afternoon escape, our coffee is designed to delight your senses and make every visit memorable. Come and tast the passion we pour into every cup. 
         </p>
         <button class="read-more">Read More</button>
       </div>
@@ -243,15 +252,13 @@
         <h2>Get Social</h2>
       
         <div class="social-icons-container" >  </div>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-behance"></i></a>
-      
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+       
       </div>
     </div>
     </footer>
   </body>
 </html>
--
